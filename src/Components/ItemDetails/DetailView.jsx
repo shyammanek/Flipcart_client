@@ -1,11 +1,11 @@
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 
 import { styled, Box, Typography, Grid } from '@mui/material';
 
 import ProductDetail from './ProductDetail';
 import ActionItem from './ActionItem';
 import { useParams } from 'react-router-dom';
-import { getProductById } from '../../service/api';
+
 import { useDispatch, useSelector } from 'react-redux';
 
 import { getProductDetails } from '../../redux/actions/productActions';
